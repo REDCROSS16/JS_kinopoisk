@@ -35,7 +35,6 @@ let inner = '';
 
 output.results.forEach(function(item, i, array){
     let nameItem = item.name || item.title;
-    console.log(output.results);
     let firstDate = item.release_date;
     inner = inner + '<div class="col-12">' + nameItem +  ' - ' + 'Дата релиза:' + ' ' + firstDate  + '</div>';
 }); 
